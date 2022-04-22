@@ -1,0 +1,143 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.svg-background {
+    background-image: url('../images/wave.png');
+    background-repeat: no-repeat;
+    background-color: #EDF0F4;
+    background-size: contain;
+}
+
+.banner-text {
+    color: white
+}
+
+.card {
+    text-align: center;
+    background-image: url('../images/transparentbg.png');
+    background-color: transparent;
+    border-radius: 2.0rem;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.email-input {
+    padding: bottom 50px;
+}
+
+.password {
+    padding-bottom: 10px;
+}
+
+h6 {
+    color: white;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+
+.text-primary {
+    color: #0070bb !important;
+}
+
+.bg-primary {
+    background-color: #0070bb !important;
+}
+
+.text-secondary {
+    color: #99c973 !important;
+}
+
+#login-button {
+    width: 50%;
+    border-radius: 10px;
+    background-color: #99c973;
+    padding: 6px;
+    font-weight: 600;
+    border: 2px solid white
+}
+
+#SSO-button {
+    width: 50%;
+    border-radius: 10px;
+    background-color: #99c973;
+    padding: 6px;
+    font-weight: 600;
+    border: 2px solid white
+}
+
+.join-button {
+    bottom: 1rem;
+    right: -10rem;
+    z-index: 3;
+}
+
+.login-card {
+    z-index: 2;
+}
+
+.min-vh-15 {
+    min-height: 15vh;
+}
+
+.min-vh-25 {
+    min-height: 25vh;
+}
+
+.min-vh-33 {
+    min-height: 33vh;
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+.min-vh-85 {
+    min-height: 85vh;
+}
+
+.max-width-150 {
+    max-width: 150%;
+}
+.min-width-100 {
+    min-width: 100%;
+}
